@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD RATE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="move">
+            <h1>FD RATE CALCULATOR</h1>
+            
+            <div class="input">
+                
+            <label for="user_input" style="font-weight: bolder;">Enter the Tenure Months</label>
+        
+            <input type="text" name="user_input" id="user_input" required >
+            </div>
+        
+            <button type="submit" onclick="fdRate()" style="width: 100px;height: 30px;">Calculate</button>
+        
+            <h1 id="result"></h1>
+        </div>
+    </div>
+
+    <script src="fd_rate_calculator.js"></script>
+</body>
+</html>
